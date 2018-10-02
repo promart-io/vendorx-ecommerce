@@ -1,0 +1,21 @@
+{
+    "guid":"vendorx-ecommerce",
+    "repository":{
+        "type":"git",
+        "branch":"master",
+        "url":"https://github.com/promart-io/vendorx-ecommerce.git"
+    },
+    "dependencies": [
+        {
+            "guid":"vendorx-ecommerce-admin",
+            "type": "git",
+            "url": "https://github.com/promart-io/vendorx-ecommerce-admin.git",
+            "branch":"master"
+        }, {
+            "guid":"vendorx-ecommerce-marketplace",
+            "type": "git",
+            "url": "https://github.com/promart-io/vendorx-ecommerce-marketplace.git",
+            "branch":"master"
+        }
+    ]
+}
